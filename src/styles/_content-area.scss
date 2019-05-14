@@ -1,0 +1,70 @@
+  /****General Elements*****/
+  h4 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+  }
+
+  select {
+    background: transparent;
+    color: #1b1b1b;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  /*****IDs******/
+  #filter {
+    background: $grey;
+    max-width: 300px;
+    width: 30%;
+  }
+
+  #listings {
+    
+  }
+
+  /*****Classes******/
+
+  .filters {
+
+    &.extras {
+      label {
+        display: block;
+        padding: 10px 0;
+        width: 100%;
+
+        input[type="checkbox"] {
+          float: right;
+        }
+
+      }
+    }
+
+    .title {
+      color: $darkGrey;
+      display: block;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    input[type="text"] {
+      border-radius: 5px;
+      display: inline-block;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      margin-right: 2.5%;
+      padding: 0.4rem;
+      width: 50%;
+    }
+
+  }
+
+  .inside {
+    max-width: 300px;
+    padding: 20px;
+  }

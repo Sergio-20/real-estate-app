@@ -1,0 +1,40 @@
+  header {
+
+    background: #0C002B;
+    color: #fff;
+    overflow: auto;
+    padding: 20px 15px;
+
+    nav {
+
+      float: right;
+
+      a {
+
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 300;
+        padding: 7px 20px;
+        text-decoration: none;
+        text-transform: capitalize;
+
+        &:hover {
+          color: $pink;
+        }
+        &.register-btn {
+          background: $pink;
+          border-radius: 5px;
+          color: #fff;
+          padding: 7px 25px;
+          text-align: center;
+        }
+
+      }
+
+    }
+
+    .logo {
+      float: left;
+    }
+
+  }

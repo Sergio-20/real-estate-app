@@ -1,0 +1,94 @@
+/***Imports****/
+header {
+  background: #0C002B;
+  color: #fff;
+  overflow: auto;
+  padding: 20px 15px;
+}
+header nav {
+  float: right;
+}
+header nav a {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding: 7px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+header nav a:hover {
+  color: #FF71BE;
+}
+header nav a.register-btn {
+  background: #FF71BE;
+  border-radius: 5px;
+  color: #fff;
+  padding: 7px 25px;
+  text-align: center;
+}
+header .logo {
+  float: left;
+}
+
+/****General Elements*****/
+h4 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+select {
+  background: transparent;
+  color: #1b1b1b;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  padding: 10px;
+  width: 100%;
+}
+
+/*****IDs******/
+#filter {
+  background: #FAF7F5;
+  max-width: 300px;
+  width: 30%;
+}
+
+/*****Classes******/
+.filters.extras label {
+  display: block;
+  padding: 10px 0;
+  width: 100%;
+}
+.filters.extras label input[type=checkbox] {
+  float: right;
+}
+.filters .title {
+  color: #ADABAA;
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.filters input[type=text] {
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 2.5%;
+  padding: 0.4rem;
+  width: 50%;
+}
+
+.inside {
+  max-width: 300px;
+  padding: 20px;
+}
+
+* html body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
